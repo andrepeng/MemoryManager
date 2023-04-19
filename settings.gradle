@@ -1,0 +1,3 @@
+rootProject.name = "MemoryManager"
+include ':app'
+include ':mylibrary'

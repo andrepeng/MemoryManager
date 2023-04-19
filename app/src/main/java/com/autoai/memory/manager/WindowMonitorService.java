@@ -71,7 +71,7 @@ public class WindowMonitorService extends AccessibilityService {
     private Runnable runnable = new Runnable() {
         @Override
         public void run() {
-            //openAccessibility();
+            openAccessibility();
             mHandler.postDelayed(this, TIME_GAP);
         }
     };
